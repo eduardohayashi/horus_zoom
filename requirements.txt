@@ -1,0 +1,7 @@
+redis>=3.3.7
+pysocks>=1.7.1
+requests>=2.22.0
+lxml>=4.3.4
+docker>=4.0.2
+mysqlclient>=1.4.4
+mysql-connector>=2.2.9

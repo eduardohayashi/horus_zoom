@@ -1,0 +1,24 @@
+
+description = '''Scrapping MercadoLivre MLBs'''
+
+redis_host = '127.0.0.1'
+redis_port = '6379'
+redis_pass = None
+redis_db = 1
+redis_ttl = 86400
+
+mysql_host='127.0.0.1'
+mysql_port=3306
+mysql_user='root'
+mysql_password='root'
+mysql_database='canterburymarketrobots'
+
+requests_headers = {}
+requests_proxy = {
+    'http' : 'socks5h://127.0.0.1:9051',
+    'https': 'socks5h://127.0.0.1:9051'
+}
+requests_proxy = None
+
+__max_workers = "Maximum threads to open"
+max_workers = 1
